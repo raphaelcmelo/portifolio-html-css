@@ -63,3 +63,31 @@ a:hover {
 #button:hover {
   transform: scale(1.05);
 }
+
+section {
+  content: "";
+  background-color: #3a4042;
+  display: flexbox;
+  width: 627px;
+  height: 184px;
+  left: 91px;
+  top: 196px;
+
+  filter: drop-shadow(10px 10px 0px #000000);
+}
+
+h1 {
+  text-align: center;
+  align-items: center;
+  width: 480px;
+  height: 40px;
+  left: 164px;
+  top: 238px;
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #b32424;
+  text-shadow: 4px 4px 0px #000000;
+}
