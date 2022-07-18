@@ -1,12 +1,16 @@
-#button {
+.button {
+  font-family: "Fira Code", sans-serif;
+  font-weight: 500;
   display: inline-block;
   background-color: #b22424;
   padding: 18px 20px;
   box-shadow: 5px 5px 0px #000;
   margin-right: 0;
   transition: 150ms;
+  text-decoration: none;
+  color: #fff;
 }
 
-#button:hover {
+.button:hover {
   transform: scale(1.05);
 }

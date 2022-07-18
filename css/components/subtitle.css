@@ -1,9 +1,8 @@
-h2 {
-  font-family: "Fira Code", monospace;
+.subtitle {
   font-family: "Press Start 2P", cursive;
   font-weight: 400;
   font-size: 30px;
   line-height: 40px;
   color: #fff;
-  text-shadow: 4px 4px 0px #000000;
+  text-shadow: 4px 4px 0px #000;
 }
