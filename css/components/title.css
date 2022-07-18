@@ -1,15 +1,6 @@
 h1 {
-  text-align: center;
-  align-items: center;
-  width: 480px;
-  height: 40px;
-  left: 164px;
-  top: 238px;
-  font-family: "Fira Code", monospace;
   font-family: "Press Start 2P", cursive;
-  font-weight: 400;
   font-size: 40px;
-  line-height: 40px;
   color: #b32424;
   text-shadow: 4px 4px 0px #000000;
 }
