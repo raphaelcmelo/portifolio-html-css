@@ -4,3 +4,9 @@
   padding-top: 50px;
   border-bottom: 10px solid #440a1f;
 }
+.section.-bgBlack {
+  background-color: #000;
+}
+.section.-bdFirst {
+  border-bottom: 10px solid #b22424;
+}
