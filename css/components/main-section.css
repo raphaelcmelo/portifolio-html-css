@@ -1,16 +1,24 @@
 .main-section {
   background-color: #b22424;
-  padding-top: 50px;
+  padding-top: 60px;
   border-bottom: 10px solid #440a1f;
 }
 
 .main-section .main-title {
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 .main-section.-bgBlack {
   background-color: #000;
-  height: 600px;
+  height: 500px;
 }
 .main-section.-bdFirst {
   border-bottom: 10px solid #b22424;
+}
+
+.main-section.-bgSecond {
+  background-color: #440a1f;
+  height: 600px;
+}
+.main-section.-bdBlack {
+  border-bottom: 10px solid #000;
 }
