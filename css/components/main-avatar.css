@@ -1,9 +1,9 @@
-.avatar {
+.main-avatar {
   max-width: 60px;
   max-height: 60px;
   transition: 150ms;
 }
 
-.avatar:hover {
+.main-avatar:hover {
   transform: scale(1.1);
 }
