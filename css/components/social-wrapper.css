@@ -1,5 +1,5 @@
 .social-wrapper {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
 }
 .social-wrapper a {
