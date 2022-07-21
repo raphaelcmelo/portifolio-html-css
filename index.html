@@ -24,7 +24,10 @@
     <link rel="stylesheet" href="css\components\main-description.css" />
     <link rel="stylesheet" href="css\components\button-arrow.css" />
     <link rel="stylesheet" href="css\components\main-footer.css" />
-    <link rel="stylesheet" href="css\components\social-wrapper.css" />
+    <link rel="stylesheet" href="css\components\main-form.css" />
+    <link rel="stylesheet" href="css\components\main-label.css" />
+    <link rel="stylesheet" href="css/components/main-input.css" />
+    <link rel="stylesheet" href="css\components\wrapper-social.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="stylesheet"
@@ -58,8 +61,8 @@
           <h2 class="main-subtitle">FrontEnd Developer</h2>
         </div>
         <div class="navigation">
-          <a class="main-button" href="" lang="en">Download CV</a>
-          <a class="main-button" href="" lang="en">Contatos</a>
+          <a class="main-button -big" href="" lang="en">Download CV</a>
+          <a class="main-button -big" href="" lang="en">Contatos</a>
         </div>
       </div>
     </section>
@@ -175,9 +178,26 @@
         Doloremque deserunt nostrum est cumque. Delectus, pariatur alias.
       </p>
     </section>
+    <form class="main-form">
+      <h2 class="main-title -second">Contatos</h2>
+      <label class="main-label" for="name">Nome</label>
+      <input class="main-input" id="name" type="text" />
+
+      <label class="main-label" for="email">E-mail</label>
+      <input class="main-input" id="email" type="email" />
+
+      <label class="main-label" for="message">Mensagem</label>
+      <textarea
+        class="main-input -textarea"
+        class="main-input"
+        id="message"
+      ></textarea>
+
+      <button class="main-button -full" type="submit">Enviar</button>
+    </form>
   </body>
   <footer class="main-footer">
-    <div class="social-wrapper">
+    <div class="wrapper-social">
       <a class="hover-fx" href="https://github.com/raphaelcmelo" target="_blank"
         ><i class="fab fa-github"></i
       ></a>
@@ -196,5 +216,8 @@
       <a href=""></a>
       <a class="hover-fx" href=""><i class="fab fa-whatsapp"></i></a>
     </div>
+    <h2 class="main-title -footer">
+      Desenvolvido por Raphael Melo. <br />2022
+    </h2>
   </footer>
 </html>

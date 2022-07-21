@@ -5,6 +5,11 @@
   font-size: 25px;
   color: #fff;
   text-shadow: none;
+  transition: 150ms;
+}
+
+.skill-tec:hover {
+  transform: scale(1.2);
 }
 .skill-tec .icon {
   margin-right: 25px;

@@ -14,3 +14,16 @@
 .main-button:hover {
   transform: scale(1.05);
 }
+
+.main-button.-full {
+  width: 100%;
+  font-weight: 500;
+  font-size: 30px;
+}
+.main-button.-full:hover {
+  transform: scale(1.01);
+}
+
+.main-button.-big:hover {
+  transform: scale(1.35);
+}
